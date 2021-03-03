@@ -47,14 +47,6 @@
     if (code2 != 0 || code3 != 0) {
         return;
     }
-//    printer.transactionPrint(.PTR_S_RECEIPT, control: .PTR_TP_TRANSACTION)
-//    _ = popUpError(errorCode: printer.setBitmap(1, station: .PTR_S_RECEIPT, fileName: imagePath!.absoluteString, width: 300, alignment: .PTR_BM_CENTER))
-//    _ = popUpError(errorCode: printer.printNormal(.PTR_S_RECEIPT, data:"\u{001b}|1B"))
-//    printer.transactionPrint(.PTR_S_RECEIPT, control: .PTR_TP_NORMAL)
-//    [printer transactionPrint:PTR_S_RECEIPT Control:PTR_TP_TRANSACTION];
-    
-//    [printer setBitmap:1 Station:PTR_S_RECEIPT Bitmap:[UIImage imageNamed:@"test22"] Width:500 Alignment:PTR_BM_CENTER];
-//    [printer transactionPrint:PTR_S_RECEIPT Control:PTR_TP_NORMAL];
     [printer printBitmap:PTR_S_RECEIPT Bitmap:[UIImage imageNamed:@"test22"] Width:500 Alignment:PTR_BM_CENTER];
     [printer cutPaper:100];
     [printer clearOutput];
@@ -63,22 +55,12 @@
     [printer close];
     count++;
     if (count <=2) {
+        //work for poor network.
         [self performSelector:@selector(testPrint) withObject:nil afterDelay:3];
+        // not work for poor network.
 //        [self performSelector:@selector(testPrint)];
     }
 }
 
-//- (NSString *)transformString:(NSString *)string {
-//    NSString *tempStr1 =
-//    [string stringByReplacingOccurrencesOfString:@"\\u"
-//                                                 withString:@"\\U"];
-//    NSString *tempStr2 =
-//    [tempStr1 stringByReplacingOccurrencesOfString:@"\"" withString:@"\\\""];
-//    NSString *tempStr3 =
-//    [[@"\"" stringByAppendingString:tempStr2] stringByAppendingString:@"\""];
-//    NSData *tempData = [tempStr3 dataUsingEncoding:NSUTF8StringEncoding];
-//    NSString *str = [NSPropertyListSerialization propertyListWithData:tempData options:NSPropertyListImmutable format:NULL error:NULL];
-//    return str;
-//}
 
 @end

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0535E17D25EF845C00B96C20 /* libTECPrtMobileSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0535E17B25EF844F00B96C20 /* libTECPrtMobileSDK.a */; };
+		0535E18225EF8FBA00B96C20 /* test22.png in Resources */ = {isa = PBXBuildFile; fileRef = 0535E18125EF8FBA00B96C20 /* test22.png */; };
 		05ACE1C125C3E55700866FE4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 05ACE1C025C3E55700866FE4 /* AppDelegate.m */; };
 		05ACE1C725C3E55700866FE4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05ACE1C625C3E55700866FE4 /* ViewController.m */; };
 		05ACE1CC25C3E55800866FE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05ACE1CB25C3E55800866FE4 /* Assets.xcassets */; };
@@ -15,7 +16,6 @@
 		05ACE1D225C3E55800866FE4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 05ACE1D125C3E55800866FE4 /* main.m */; };
 		05ACE1DC25C3E55800866FE4 /* TestPrintTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 05ACE1DB25C3E55800866FE4 /* TestPrintTests.m */; };
 		05ACE1E725C3E55800866FE4 /* TestPrintUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 05ACE1E625C3E55800866FE4 /* TestPrintUITests.m */; };
-		05E719E025E658B300D363C0 /* test22.png in Resources */ = {isa = PBXBuildFile; fileRef = 05E719DF25E658B300D363C0 /* test22.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +37,7 @@
 
 /* Begin PBXFileReference section */
 		0535E17B25EF844F00B96C20 /* libTECPrtMobileSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTECPrtMobileSDK.a; sourceTree = "<group>"; };
+		0535E18125EF8FBA00B96C20 /* test22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test22.png; sourceTree = "<group>"; };
 		05ACE1BC25C3E55700866FE4 /* TestPrint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestPrint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05ACE1BF25C3E55700866FE4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		05ACE1C025C3E55700866FE4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -65,7 +66,6 @@
 		05ACE20425C3E5B100866FE4 /* ConfiguredDeviceXMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfiguredDeviceXMLParser.h; sourceTree = "<group>"; };
 		05ACE20525C3E5B100866FE4 /* TRSTP1XPrinter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRSTP1XPrinter.h; sourceTree = "<group>"; };
 		05ACE20625C3E5B100866FE4 /* TECInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TECInterface.h; sourceTree = "<group>"; };
-		05E719DF25E658B300D363C0 /* test22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = test22.png; path = ../../../test22.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,7 +130,7 @@
 				05ACE1C025C3E55700866FE4 /* AppDelegate.m */,
 				05ACE1C525C3E55700866FE4 /* ViewController.h */,
 				05ACE1C625C3E55700866FE4 /* ViewController.m */,
-				05E719DF25E658B300D363C0 /* test22.png */,
+				0535E18125EF8FBA00B96C20 /* test22.png */,
 				05ACE1CB25C3E55800866FE4 /* Assets.xcassets */,
 				05ACE1CD25C3E55800866FE4 /* LaunchScreen.storyboard */,
 				05ACE1D025C3E55800866FE4 /* Info.plist */,
@@ -291,7 +291,7 @@
 			files = (
 				05ACE1CF25C3E55800866FE4 /* LaunchScreen.storyboard in Resources */,
 				05ACE1CC25C3E55800866FE4 /* Assets.xcassets in Resources */,
-				05E719E025E658B300D363C0 /* test22.png in Resources */,
+				0535E18225EF8FBA00B96C20 /* test22.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
