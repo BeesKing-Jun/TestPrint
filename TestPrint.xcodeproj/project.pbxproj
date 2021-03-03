@@ -1,0 +1,661 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0535E17D25EF845C00B96C20 /* libTECPrtMobileSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0535E17B25EF844F00B96C20 /* libTECPrtMobileSDK.a */; };
+		05ACE1C125C3E55700866FE4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 05ACE1C025C3E55700866FE4 /* AppDelegate.m */; };
+		05ACE1C725C3E55700866FE4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05ACE1C625C3E55700866FE4 /* ViewController.m */; };
+		05ACE1CC25C3E55800866FE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05ACE1CB25C3E55800866FE4 /* Assets.xcassets */; };
+		05ACE1CF25C3E55800866FE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05ACE1CD25C3E55800866FE4 /* LaunchScreen.storyboard */; };
+		05ACE1D225C3E55800866FE4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 05ACE1D125C3E55800866FE4 /* main.m */; };
+		05ACE1DC25C3E55800866FE4 /* TestPrintTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 05ACE1DB25C3E55800866FE4 /* TestPrintTests.m */; };
+		05ACE1E725C3E55800866FE4 /* TestPrintUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 05ACE1E625C3E55800866FE4 /* TestPrintUITests.m */; };
+		05E719E025E658B300D363C0 /* test22.png in Resources */ = {isa = PBXBuildFile; fileRef = 05E719DF25E658B300D363C0 /* test22.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		05ACE1D825C3E55800866FE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05ACE1B425C3E55700866FE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05ACE1BB25C3E55700866FE4;
+			remoteInfo = TestPrint;
+		};
+		05ACE1E325C3E55800866FE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05ACE1B425C3E55700866FE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05ACE1BB25C3E55700866FE4;
+			remoteInfo = TestPrint;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0535E17B25EF844F00B96C20 /* libTECPrtMobileSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTECPrtMobileSDK.a; sourceTree = "<group>"; };
+		05ACE1BC25C3E55700866FE4 /* TestPrint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestPrint.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		05ACE1BF25C3E55700866FE4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		05ACE1C025C3E55700866FE4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		05ACE1C525C3E55700866FE4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		05ACE1C625C3E55700866FE4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		05ACE1CB25C3E55800866FE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		05ACE1CE25C3E55800866FE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		05ACE1D025C3E55800866FE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05ACE1D125C3E55800866FE4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		05ACE1D725C3E55800866FE4 /* TestPrintTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestPrintTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		05ACE1DB25C3E55800866FE4 /* TestPrintTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestPrintTests.m; sourceTree = "<group>"; };
+		05ACE1DD25C3E55800866FE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05ACE1E225C3E55800866FE4 /* TestPrintUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestPrintUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		05ACE1E625C3E55800866FE4 /* TestPrintUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestPrintUITests.m; sourceTree = "<group>"; };
+		05ACE1E825C3E55800866FE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05ACE1FA25C3E5B100866FE4 /* TECPOSPrinter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TECPOSPrinter.h; sourceTree = "<group>"; };
+		05ACE1FB25C3E5B100866FE4 /* TRSTP2XPrinter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRSTP2XPrinter.h; sourceTree = "<group>"; };
+		05ACE1FC25C3E5B100866FE4 /* TECPOSDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TECPOSDevice.h; sourceTree = "<group>"; };
+		05ACE1FD25C3E5B100866FE4 /* CommonXMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonXMLParser.h; sourceTree = "<group>"; };
+		05ACE1FE25C3E5B100866FE4 /* TECLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TECLog.h; sourceTree = "<group>"; };
+		05ACE1FF25C3E5B100866FE4 /* Resource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Resource.h; sourceTree = "<group>"; };
+		05ACE20025C3E5B100866FE4 /* TECFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TECFile.h; sourceTree = "<group>"; };
+		05ACE20125C3E5B100866FE4 /* TECCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TECCommon.h; sourceTree = "<group>"; };
+		05ACE20225C3E5B100866FE4 /* ConfiguredDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfiguredDevice.h; sourceTree = "<group>"; };
+		05ACE20325C3E5B100866FE4 /* TECPOSResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TECPOSResource.h; sourceTree = "<group>"; };
+		05ACE20425C3E5B100866FE4 /* ConfiguredDeviceXMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfiguredDeviceXMLParser.h; sourceTree = "<group>"; };
+		05ACE20525C3E5B100866FE4 /* TRSTP1XPrinter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRSTP1XPrinter.h; sourceTree = "<group>"; };
+		05ACE20625C3E5B100866FE4 /* TECInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TECInterface.h; sourceTree = "<group>"; };
+		05E719DF25E658B300D363C0 /* test22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = test22.png; path = ../../../test22.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05ACE1B925C3E55700866FE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0535E17D25EF845C00B96C20 /* libTECPrtMobileSDK.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05ACE1D425C3E55800866FE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05ACE1DF25C3E55800866FE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		057D16FF25E89B31003804B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		05ACE1B325C3E55700866FE4 = {
+			isa = PBXGroup;
+			children = (
+				05ACE1BE25C3E55700866FE4 /* TestPrint */,
+				05ACE1DA25C3E55800866FE4 /* TestPrintTests */,
+				05ACE1E525C3E55800866FE4 /* TestPrintUITests */,
+				05ACE1BD25C3E55700866FE4 /* Products */,
+				057D16FF25E89B31003804B2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		05ACE1BD25C3E55700866FE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05ACE1BC25C3E55700866FE4 /* TestPrint.app */,
+				05ACE1D725C3E55800866FE4 /* TestPrintTests.xctest */,
+				05ACE1E225C3E55800866FE4 /* TestPrintUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05ACE1BE25C3E55700866FE4 /* TestPrint */ = {
+			isa = PBXGroup;
+			children = (
+				05ACE1F725C3E5B100866FE4 /* TECPrtMobileSDK */,
+				05ACE1BF25C3E55700866FE4 /* AppDelegate.h */,
+				05ACE1C025C3E55700866FE4 /* AppDelegate.m */,
+				05ACE1C525C3E55700866FE4 /* ViewController.h */,
+				05ACE1C625C3E55700866FE4 /* ViewController.m */,
+				05E719DF25E658B300D363C0 /* test22.png */,
+				05ACE1CB25C3E55800866FE4 /* Assets.xcassets */,
+				05ACE1CD25C3E55800866FE4 /* LaunchScreen.storyboard */,
+				05ACE1D025C3E55800866FE4 /* Info.plist */,
+				05ACE1D125C3E55800866FE4 /* main.m */,
+			);
+			path = TestPrint;
+			sourceTree = "<group>";
+		};
+		05ACE1DA25C3E55800866FE4 /* TestPrintTests */ = {
+			isa = PBXGroup;
+			children = (
+				05ACE1DB25C3E55800866FE4 /* TestPrintTests.m */,
+				05ACE1DD25C3E55800866FE4 /* Info.plist */,
+			);
+			path = TestPrintTests;
+			sourceTree = "<group>";
+		};
+		05ACE1E525C3E55800866FE4 /* TestPrintUITests */ = {
+			isa = PBXGroup;
+			children = (
+				05ACE1E625C3E55800866FE4 /* TestPrintUITests.m */,
+				05ACE1E825C3E55800866FE4 /* Info.plist */,
+			);
+			path = TestPrintUITests;
+			sourceTree = "<group>";
+		};
+		05ACE1F725C3E5B100866FE4 /* TECPrtMobileSDK */ = {
+			isa = PBXGroup;
+			children = (
+				0535E17B25EF844F00B96C20 /* libTECPrtMobileSDK.a */,
+				05ACE1F925C3E5B100866FE4 /* include */,
+			);
+			path = TECPrtMobileSDK;
+			sourceTree = "<group>";
+		};
+		05ACE1F925C3E5B100866FE4 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				05ACE1FA25C3E5B100866FE4 /* TECPOSPrinter.h */,
+				05ACE1FB25C3E5B100866FE4 /* TRSTP2XPrinter.h */,
+				05ACE1FC25C3E5B100866FE4 /* TECPOSDevice.h */,
+				05ACE1FD25C3E5B100866FE4 /* CommonXMLParser.h */,
+				05ACE1FE25C3E5B100866FE4 /* TECLog.h */,
+				05ACE1FF25C3E5B100866FE4 /* Resource.h */,
+				05ACE20025C3E5B100866FE4 /* TECFile.h */,
+				05ACE20125C3E5B100866FE4 /* TECCommon.h */,
+				05ACE20225C3E5B100866FE4 /* ConfiguredDevice.h */,
+				05ACE20325C3E5B100866FE4 /* TECPOSResource.h */,
+				05ACE20425C3E5B100866FE4 /* ConfiguredDeviceXMLParser.h */,
+				05ACE20525C3E5B100866FE4 /* TRSTP1XPrinter.h */,
+				05ACE20625C3E5B100866FE4 /* TECInterface.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05ACE1BB25C3E55700866FE4 /* TestPrint */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05ACE1EB25C3E55900866FE4 /* Build configuration list for PBXNativeTarget "TestPrint" */;
+			buildPhases = (
+				05ACE1B825C3E55700866FE4 /* Sources */,
+				05ACE1B925C3E55700866FE4 /* Frameworks */,
+				05ACE1BA25C3E55700866FE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestPrint;
+			productName = TestPrint;
+			productReference = 05ACE1BC25C3E55700866FE4 /* TestPrint.app */;
+			productType = "com.apple.product-type.application";
+		};
+		05ACE1D625C3E55800866FE4 /* TestPrintTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05ACE1EE25C3E55900866FE4 /* Build configuration list for PBXNativeTarget "TestPrintTests" */;
+			buildPhases = (
+				05ACE1D325C3E55800866FE4 /* Sources */,
+				05ACE1D425C3E55800866FE4 /* Frameworks */,
+				05ACE1D525C3E55800866FE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05ACE1D925C3E55800866FE4 /* PBXTargetDependency */,
+			);
+			name = TestPrintTests;
+			productName = TestPrintTests;
+			productReference = 05ACE1D725C3E55800866FE4 /* TestPrintTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		05ACE1E125C3E55800866FE4 /* TestPrintUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05ACE1F125C3E55900866FE4 /* Build configuration list for PBXNativeTarget "TestPrintUITests" */;
+			buildPhases = (
+				05ACE1DE25C3E55800866FE4 /* Sources */,
+				05ACE1DF25C3E55800866FE4 /* Frameworks */,
+				05ACE1E025C3E55800866FE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05ACE1E425C3E55800866FE4 /* PBXTargetDependency */,
+			);
+			name = TestPrintUITests;
+			productName = TestPrintUITests;
+			productReference = 05ACE1E225C3E55800866FE4 /* TestPrintUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05ACE1B425C3E55700866FE4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					05ACE1BB25C3E55700866FE4 = {
+						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
+					};
+					05ACE1D625C3E55800866FE4 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 05ACE1BB25C3E55700866FE4;
+					};
+					05ACE1E125C3E55800866FE4 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 05ACE1BB25C3E55700866FE4;
+					};
+				};
+			};
+			buildConfigurationList = 05ACE1B725C3E55700866FE4 /* Build configuration list for PBXProject "TestPrint" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 05ACE1B325C3E55700866FE4;
+			productRefGroup = 05ACE1BD25C3E55700866FE4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05ACE1BB25C3E55700866FE4 /* TestPrint */,
+				05ACE1D625C3E55800866FE4 /* TestPrintTests */,
+				05ACE1E125C3E55800866FE4 /* TestPrintUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05ACE1BA25C3E55700866FE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05ACE1CF25C3E55800866FE4 /* LaunchScreen.storyboard in Resources */,
+				05ACE1CC25C3E55800866FE4 /* Assets.xcassets in Resources */,
+				05E719E025E658B300D363C0 /* test22.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05ACE1D525C3E55800866FE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05ACE1E025C3E55800866FE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05ACE1B825C3E55700866FE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05ACE1C725C3E55700866FE4 /* ViewController.m in Sources */,
+				05ACE1C125C3E55700866FE4 /* AppDelegate.m in Sources */,
+				05ACE1D225C3E55800866FE4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05ACE1D325C3E55800866FE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05ACE1DC25C3E55800866FE4 /* TestPrintTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05ACE1DE25C3E55800866FE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05ACE1E725C3E55800866FE4 /* TestPrintUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05ACE1D925C3E55800866FE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05ACE1BB25C3E55700866FE4 /* TestPrint */;
+			targetProxy = 05ACE1D825C3E55800866FE4 /* PBXContainerItemProxy */;
+		};
+		05ACE1E425C3E55800866FE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05ACE1BB25C3E55700866FE4 /* TestPrint */;
+			targetProxy = 05ACE1E325C3E55800866FE4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		05ACE1CD25C3E55800866FE4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05ACE1CE25C3E55800866FE4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		05ACE1E925C3E55800866FE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		05ACE1EA25C3E55800866FE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		05ACE1EC25C3E55900866FE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 264BX5RC4N;
+				ENABLE_BITCODE = NO;
+				EXCLUDED_ARCHS = armv7;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/TestPrint/TECPrtMobileSDK/include\"";
+				INFOPLIST_FILE = TestPrint/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TestPrint/TECPrtMobileSDK",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Bees.TestPrint;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TestPrint/TestPrint-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)";
+				VALID_ARCHS = "armv7 arm64";
+			};
+			name = Debug;
+		};
+		05ACE1ED25C3E55900866FE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 264BX5RC4N;
+				ENABLE_BITCODE = NO;
+				EXCLUDED_ARCHS = armv7;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/TestPrint/TECPrtMobileSDK/include\"";
+				INFOPLIST_FILE = TestPrint/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TestPrint/TECPrtMobileSDK",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Bees.TestPrint;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TestPrint/TestPrint-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)";
+				VALID_ARCHS = "armv7 arm64";
+			};
+			name = Release;
+		};
+		05ACE1EF25C3E55900866FE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TestPrintTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Bees.TestPrintTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestPrint.app/TestPrint";
+			};
+			name = Debug;
+		};
+		05ACE1F025C3E55900866FE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TestPrintTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Bees.TestPrintTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestPrint.app/TestPrint";
+			};
+			name = Release;
+		};
+		05ACE1F225C3E55900866FE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TestPrintUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Bees.TestPrintUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TestPrint;
+			};
+			name = Debug;
+		};
+		05ACE1F325C3E55900866FE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TestPrintUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Bees.TestPrintUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TestPrint;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05ACE1B725C3E55700866FE4 /* Build configuration list for PBXProject "TestPrint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05ACE1E925C3E55800866FE4 /* Debug */,
+				05ACE1EA25C3E55800866FE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05ACE1EB25C3E55900866FE4 /* Build configuration list for PBXNativeTarget "TestPrint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05ACE1EC25C3E55900866FE4 /* Debug */,
+				05ACE1ED25C3E55900866FE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05ACE1EE25C3E55900866FE4 /* Build configuration list for PBXNativeTarget "TestPrintTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05ACE1EF25C3E55900866FE4 /* Debug */,
+				05ACE1F025C3E55900866FE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05ACE1F125C3E55900866FE4 /* Build configuration list for PBXNativeTarget "TestPrintUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05ACE1F225C3E55900866FE4 /* Debug */,
+				05ACE1F325C3E55900866FE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05ACE1B425C3E55700866FE4 /* Project object */;
+}
