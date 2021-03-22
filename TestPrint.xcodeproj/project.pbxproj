@@ -488,7 +488,6 @@
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 264BX5RC4N;
 				ENABLE_BITCODE = NO;
-				EXCLUDED_ARCHS = armv7;
 				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/TestPrint/TECPrtMobileSDK/include\"";
 				INFOPLIST_FILE = TestPrint/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -507,7 +506,6 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)";
-				VALID_ARCHS = "armv7 arm64";
 			};
 			name = Debug;
 		};
@@ -522,7 +520,6 @@
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 264BX5RC4N;
 				ENABLE_BITCODE = NO;
-				EXCLUDED_ARCHS = armv7;
 				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/TestPrint/TECPrtMobileSDK/include\"";
 				INFOPLIST_FILE = TestPrint/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -540,7 +537,6 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)";
-				VALID_ARCHS = "armv7 arm64";
 			};
 			name = Release;
 		};

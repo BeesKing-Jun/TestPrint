@@ -41,7 +41,7 @@
 - (void)testPrint
 {
     TRSTP2XPrinter *printer = [[TRSTP2XPrinter alloc] init];
-    [printer open:@"LAN;192.168.1.157;9100;3000"];
+    [printer open:@"LAN;192.168.1.156;9100;3000"];
     NSInteger code2 = [printer claimDevice:50000];
     NSInteger code3 = [printer setDeviceEnabled:YES];
     if (code2 != 0 || code3 != 0) {
@@ -49,16 +49,15 @@
     }
     [printer printBitmap:PTR_S_RECEIPT Bitmap:[UIImage imageNamed:@"test22"] Width:500 Alignment:PTR_BM_CENTER];
     [printer cutPaper:100];
-    [printer clearOutput];
     [printer setDeviceEnabled:NO];
     [printer releaseDevice];
     [printer close];
     count++;
     if (count <=2) {
         //work for poor network.
-        [self performSelector:@selector(testPrint) withObject:nil afterDelay:3];
+//        [self performSelector:@selector(testPrint) withObject:nil afterDelay:3];
         // not work for poor network.
-//        [self performSelector:@selector(testPrint)];
+        [self performSelector:@selector(testPrint)];
     }
 }
 
