@@ -41,7 +41,7 @@
 - (void)testPrint
 {
     TRSTP2XPrinter *printer = [[TRSTP2XPrinter alloc] init];
-    [printer open:@"LAN;192.168.1.156;9100;3000"];
+    [printer open:@"LAN;192.168.1.157;9100;3000"];
     NSInteger code2 = [printer claimDevice:50000];
     NSInteger code3 = [printer setDeviceEnabled:YES];
     if (code2 != 0 || code3 != 0) {
